@@ -1,0 +1,90 @@
+<html>
+<head>
+<title>Portfolio</title>
+<link rel="stylesheet" href="styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans|Roboto+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class = "container">
+        <div class = "intro">
+            <img id = "profilepic" src="profile-picture.jpg"/>
+            <h1>Hetvi Patel</h1>
+            <h3>Computer Science Major at Princeton University</h3>
+            <p> Expected Graduation Date: May 2023</p>
+        </div>
+        <hr/>
+        <div class = "about-grid">
+            <div class = "courses">
+            <h3>Relevant Coursework:</h3>
+            <ul class = "about-list">
+                <li>Algorithms and Data Structures</li>
+                <li>Programming Systems</li>
+                <li>Reasoning about Computation</li>
+                <li>Fundamentals of Statistics</li>
+            </ul>
+            </div>
+            <div class = "activities">
+            <h3>Activities:</h3>
+            <ul class = "about-list">
+                <li>Princeton Women in Computer Science</li>
+                <li>Naacho Dance Company</li>
+                <li>Princeton Competitive Bhangra team</li>
+                <li>Service Focus Cohort</li>
+            </ul>
+            </div>
+        </div>
+        <hr/>
+        <div>
+            <h3 class = "projects-heading">My Experience and Projects</h3>
+            <div class = "projects-grid">
+                <div class = "project-image-wrapper">
+                    <h4>Lab Teaching Assistant/Grader</h4>
+                    <img class = "project-image" src="princetoncs.jpg"/>
+                </div>
+                <div class = "project-image-wrapper">
+                    <h4>Software Engineer Virtual Intern</h4>
+                    <img class = "project-image" src="jpmorgan.jpg"/>
+                </div>
+                <div class = "project-image-wrapper">
+                    <h4>Website Developer/Manager Intern</h4>
+                    <img class = "project-image" src="aspireprep.png"/>
+                </div>
+                <div class = "project-image-wrapper">
+                    <h4>RESEARCH - Gene-specific pattern of expression variation across species and organs </h4>
+                    <img class = "project-image" src="gene.jpg"/>
+                </div>
+            </div>
+        </div>
+        <div class = "links-and-contact">
+            <div class = "links">
+                <h3>Links</h3>
+                <ul class = "links-list">
+                <li>
+                    <a href="https://github.com/hetvi3207">Github</a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/hetvi-patel-476366198/">Linkedin</a>
+                </li>
+                </ul>
+            </div>
+            <div>
+                <form action="#">
+                    <label for="email">
+                        <h4>Email</h4>
+                        <input type="email" id="email" placeholder="Enter your email" /> 
+                    </label>
+                    <label for="message">
+                        <h4>Message</h4>
+                        <textarea id="message" placeholder="Your message"></textarea>
+                    </label>
+                    <div class = "submit-button-wrapper">
+                        <input type="submit" value="Send Message" id = "submit-button"/>
+                    </div>
+                </form>
+            </div>
+        </div>         
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
